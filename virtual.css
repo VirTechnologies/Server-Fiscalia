@@ -1,0 +1,357 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+	background-attachment: fixed;
+	background-image: url(images/fondo.jpg);
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+}
+#principal {
+	background-color: #59554A;
+	background-image: url(images/fondo_titulo.png);
+	background-repeat: repeat-x;
+	height: 101px;
+	width: 100%;
+}
+#titulo-principal {
+	float: left;
+	height: 101px;
+	width: 383px;
+}
+#menu-principal {
+	text-align: right;
+	margin: 0px;
+	padding: 40px 0 0 0;
+	float: right;
+
+}
+/*MENU PRINCIPAL*/
+
+#menu-principal ul {
+	margin: 0px;
+	padding: 0 10px 0 0;
+	list-style: none;
+	float: right; 
+	border-left:#FFF solid 1px;
+}
+
+#menu-principal li {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	display: block;
+}
+
+#menu-principal li a {
+	padding: 0px 10px 0px 10px;
+	border-right:#FFF solid 1px;
+	float: left;
+	display: block;
+	overflow: hidden;  
+	font-size: 12px;
+	text-decoration: none;
+}
+
+
+#menu-principal a:link, #menu-principal a:visited {
+	color: #d8ceb3;
+}
+
+#menu-principal a:hover {
+	color: #FFFFFF;
+}
+
+/*FIN MENU PRINCIPAL*/
+
+#login {
+	margin:auto;
+	height: 270px;
+	width: 500px;
+	position:relative;
+	top:50px;
+	background:#FFF;
+	border:#006666 solid 1px;
+	padding:20px 0 0 0;
+}
+.titulos {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #006666;
+	text-transform: uppercase;
+}
+
+.subtitulos {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #bbb6a4;
+}
+
+/*FORMULARIOS*/
+
+.logointerno {
+	border:#960 1px solid;
+}
+
+.labelforms {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+}
+input, textarea {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	border: 1px solid #999;
+	background: #FFF url(images/fondo_campos.gif) repeat-x;
+	padding-left: 5px;
+}
+
+select {
+	background: #f1eee2;
+	color: #666;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.noescribibles{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	border: none;
+	background: #EEE;
+	padding-left: 5px;	
+}
+
+/* BOTONES */
+.boton {
+	background:#59554a;
+	color:#f1eee2;
+	border:#342c17 solid 1px;
+	font-size:14px;
+	cursor: hand;
+}
+
+.botonesmenu {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color: #968f74;
+	height:30px;
+	line-height:30px;
+	background: transparent url(images/fondo_boton_menu.png) no-repeat left center;
+	text-indent: 34px;
+	border:none;
+	cursor: hand;
+}
+.bborrar{
+	border: #CCC solid 1px;
+	color:#000;
+	font-size:11px;
+	height:24px;
+	line-height:24px;
+	text-indent: 24px;
+	text-align:left;
+	cursor: hand;
+	padding:0 7px;
+	margin:5px;
+	background: #ECE4D7 url(images/borrar.png) no-repeat 2px center;
+
+}
+.binsertar{
+	background:#ECE4D7  url(images/insertar.png) no-repeat 2px center;
+	border: #CCC solid 1px;
+	color:#000;
+	font-size:11px;
+	height:24px;
+	line-height:24px;
+	text-indent: 24px;
+	padding:0 7px;
+	cursor: hand;
+	margin:5px;
+}
+.bgrabar{
+	background: #ECE4D7 url(images/grabar.png) no-repeat 2px center;
+	border: #CCC solid 1px;
+	color:#000;
+	font-size:11px;
+	height:24px;
+	line-height:24px;
+	text-indent: 16px;
+	padding:0 7px;
+	cursor: hand;
+	margin:5px;
+}
+.bVerDatos{
+	background: #ECE4D7 url(images/ver_todos.png) no-repeat 2px center;
+	border: #CCC solid 1px;
+	color:#000;
+	font-size:11px;
+	height:24px;
+	line-height:24px;
+	text-indent: 16px;
+	padding:0 7px;
+	cursor: hand;
+	margin:5px;
+}
+.bbuscar{
+	background: #ECE4D7 url(images/buscar.png) no-repeat 2px center;
+	border: #CCC solid 1px;
+	color:#000;
+	font-size:11px;
+	height:24px;
+	line-height:24px;
+	text-indent: 16px;
+	padding:0 7px;
+	cursor: hand;
+	margin:5px;
+}
+.bimprimir{
+	background: #ECE4D7 url(images/imprimir.png) no-repeat 2px center;
+	border: #CCC solid 1px;
+	color:#000;
+	font-size:11px;
+	height:24px;
+	line-height:24px;
+	text-indent: 16px;
+	padding:0 7px;
+	cursor: hand;
+	margin:5px;
+}
+
+.bexcel{
+	background: #ECE4D7 url(images/excel.png) no-repeat 2px center;
+	border: #CCC solid 1px;
+	color:#000;
+	font-size:11px;
+	height:24px;
+	line-height:24px;
+	text-indent: 16px;
+	padding:0 7px;
+	cursor: hand;
+	margin:5px;
+}
+
+.busuario{
+	background: #ECE4D7 url(images/usuario.png) no-repeat 2px center;
+	border: #CCC solid 1px;
+	color:#000;
+	font-size:11px;
+	height:24px;
+	line-height:24px;
+	text-indent: 16px;
+	padding:0 7px;
+	cursor: hand;
+	margin:5px;
+}
+
+.balternativo{
+	background: #ECE4D7 url(images/alternativo.gif) no-repeat 2px center;
+	border: #CCC solid 1px;
+	color:#000;
+	font-size:11px;
+	height:24px;
+	line-height:24px;
+	text-indent: 16px;
+	padding:0 7px;
+	cursor: hand;
+	margin:5px;
+}
+
+.bgenerico{
+	background: #ECE4D7 url(images/generico.gif) no-repeat 2px center;
+	color:#000;
+	font-size:11px;
+	height:24px;
+	line-height:24px;
+	text-indent: 10px;
+	border: #CCC solid 1px;
+	padding:0 7px;
+	cursor: hand;
+	margin:5px;
+}
+
+.bvolver{
+	border: #CCC solid 1px;
+	color:#000;
+	font-size:11px;
+	height:24px;
+	line-height:24px;
+	text-indent: 16px;
+	cursor: hand;
+	margin:5px;
+	background: #ECE4D7 url(images/volver.png) no-repeat 2px center;
+}
+
+.btab1{
+	background:url(images/fondo_tab1.png) repeat-x;
+	height:19px;
+	border: #5B5642 solid 1px;
+	color:#FFC;
+	cursor: hand;
+}
+.btab2{
+	background:url(images/fondo_tab2.png) repeat-x;
+	height:19px;
+	border: #BBB6A4 solid 1px;
+	color:#5B5642;
+	cursor: hand;
+}
+
+/*CUADROS*/
+
+table {
+	color: #333333;
+	border-collapse:collapse;
+}
+td {
+	padding:0 6px;
+	margin:0px;
+	/*border: 1px solid #d0cdc0;*/
+	}
+.fila1{
+	background:#F8F7F3;
+	}
+.titulocuadro {
+	color: #736e58;
+	background-color: #d0cdc0;
+	text-align: center;
+	padding: 3px;
+	border: 1px solid #bbb6a4;
+	text-align:center;
+}
+a {
+	color: #8B4513;
+}
+
+.advertencia {
+	color:#900;
+	background: url(images/adv.png) no-repeat left center;
+	/*text-indent:24px;*/
+	height:24px;
+	line-height:24px;
+	padding:0 0 0 24px;
+}
+
+.error {
+	color:#900;
+	background: #FFEAEA url(images/adv.png) no-repeat left center;
+	text-indent:20px;
+	height:24px;
+	line-height:24px;
+	display:block;
+	border-bottom:#900 solid 2px;
+	border-top:#900 solid 2px;
+}
+
+.correcto {
+	color: #090;
+	background: #E8FFE8 url(images/correcto.png) no-repeat left center;
+	text-indent:20px;
+	height:24px;
+	line-height:24px;
+	display:block;
+	border-bottom: #090 solid 2px;
+	border-top:#090 solid 2px;
+}

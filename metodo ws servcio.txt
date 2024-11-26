@@ -1,0 +1,25 @@
+    [WebMethod]
+    public string ActualizarTurnosPorFranja(int numeroTurnos, int idSede)
+    {
+        string query = "UPDATE DisponibilidadAgendamiento " +
+                       "SET TurnosPorFranja = @numeroTurnos " +
+                       "WHERE ID_Sede = @idSede";
+
+        using (SqlCommand command = new SqlCommand(query, conectarIntelliCentral))
+        {
+            command.Parameters.AddWithValue("@numeroTurnos", numeroTurnos);
+            command.Parameters.AddWithValue("@idSede", idSede);
+
+            try
+            {
+                conectarIntelliCentral.Open();
+                int rowsAffected = command.ExecuteNonQuery();
+                conectarIntelliCentral.Close();
+                return $"Actualización exitosa. Filas afectadas: {rowsAffected}";
+            }
+            catch (Exception ex)
+            {
+                return $"Error: {ex.Message}";
+            }
+        }
+    }
